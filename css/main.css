@@ -10,14 +10,42 @@
 
 body {
     font-family: 'Nerko One', cursive;
+    margin: 0 auto;
+    background: dodgerblue;
+}
+
+.main-container .clearfix:after {
+    display:table;
+    content: '';
+    clear: both;
 }
 
 /* Header */
 
-
-
+header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 2px 2px #000;
+}
 /* Main Content */
 
+.main-container {
+    padding: 20px;
+    width: 1200px;
+    height: 600px;
+    background: lightgreen;
+    margin: 0 auto;
+}
 
 /* Sections Cards */
 
+.card {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin-bottom: 30px;
+    margin-right: 190px;
+}
