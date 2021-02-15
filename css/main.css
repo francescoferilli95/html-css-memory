@@ -51,3 +51,34 @@ header {
     background: #fff;
 }
 
+.img1 {
+    display: block;
+}
+
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    display: none;
+}
+
+.card:hover .img1 {
+    display:none;
+}
+
+.card:hover .img2,
+.card:hover .img3,
+.card:hover .img4,
+.card:hover .img5,
+.card:hover .img6 {
+    display: block;
+}
+
+
+footer {
+    margin: 120px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
